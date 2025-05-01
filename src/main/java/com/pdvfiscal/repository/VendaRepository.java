@@ -1,5 +1,6 @@
-package com.pdvfiscal.venda;
+package com.pdvfiscal.repository;
 
+import com.pdvfiscal.entity.Venda;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

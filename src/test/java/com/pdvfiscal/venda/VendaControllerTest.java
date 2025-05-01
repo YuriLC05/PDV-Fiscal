@@ -1,8 +1,9 @@
 package com.pdvfiscal.venda;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.pdvfiscal.produto.Produto;
-import com.pdvfiscal.produto.ProdutoRepository;
+import com.pdvfiscal.entity.ItemVenda;
+import com.pdvfiscal.entity.Produto;
+import com.pdvfiscal.repository.ProdutoRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

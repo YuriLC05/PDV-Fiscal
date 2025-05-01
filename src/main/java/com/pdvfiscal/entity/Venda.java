@@ -1,4 +1,4 @@
-package com.pdvfiscal.venda;
+package com.pdvfiscal.entity;
 
 import javax.persistence.*;
 import java.math.BigDecimal;

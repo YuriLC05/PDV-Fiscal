@@ -1,4 +1,4 @@
-package com.pdvfiscal.usuario;
+package com.pdvfiscal.entity;
 
 import javax.persistence.*;
 

@@ -1,5 +1,7 @@
-package com.pdvfiscal.usuario;
+package com.pdvfiscal.controller;
 
+import com.pdvfiscal.entity.Usuario;
+import com.pdvfiscal.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

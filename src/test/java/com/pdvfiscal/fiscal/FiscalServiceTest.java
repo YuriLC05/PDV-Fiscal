@@ -1,7 +1,8 @@
 package com.pdvfiscal.fiscal;
 
-import com.pdvfiscal.venda.Venda;
-import com.pdvfiscal.venda.VendaRepository;
+import com.pdvfiscal.service.FiscalService;
+import com.pdvfiscal.entity.Venda;
+import com.pdvfiscal.repository.VendaRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

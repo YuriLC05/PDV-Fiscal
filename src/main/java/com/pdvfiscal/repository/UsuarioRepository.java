@@ -1,5 +1,6 @@
-package com.pdvfiscal.usuario;
+package com.pdvfiscal.repository;
 
+import com.pdvfiscal.entity.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 

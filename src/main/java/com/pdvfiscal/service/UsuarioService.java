@@ -1,5 +1,7 @@
-package com.pdvfiscal.usuario;
+package com.pdvfiscal.service;
 
+import com.pdvfiscal.entity.Usuario;
+import com.pdvfiscal.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;

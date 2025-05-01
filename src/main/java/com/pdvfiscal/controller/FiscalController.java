@@ -1,5 +1,6 @@
-package com.pdvfiscal.fiscal;
+package com.pdvfiscal.controller;
 
+import com.pdvfiscal.service.FiscalService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

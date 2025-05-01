@@ -1,8 +1,11 @@
-package com.pdvfiscal.venda;
+package com.pdvfiscal.service;
 
-import com.pdvfiscal.produto.Produto;
-import com.pdvfiscal.produto.ProdutoRepository;
-import com.pdvfiscal.fiscal.FiscalService;
+import com.pdvfiscal.entity.ItemVenda;
+import com.pdvfiscal.entity.Produto;
+import com.pdvfiscal.entity.Venda;
+import com.pdvfiscal.repository.ItemVendaRepository;
+import com.pdvfiscal.repository.ProdutoRepository;
+import com.pdvfiscal.repository.VendaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

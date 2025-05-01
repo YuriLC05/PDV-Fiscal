@@ -1,4 +1,4 @@
-package com.pdvfiscal.fiscal;
+package com.pdvfiscal.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

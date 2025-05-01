@@ -1,9 +1,9 @@
-package com.pdvfiscal.fiscal;
+package com.pdvfiscal.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.pdvfiscal.venda.Venda;
-import com.pdvfiscal.venda.VendaRepository;
+import com.pdvfiscal.entity.Venda;
+import com.pdvfiscal.repository.VendaRepository;
 
 // IMPORTS COMENTADOS POR INDISPONIBILIDADE DA DEPENDÊNCIA
 // import com.fincatto.documentofiscal.nfe400.classes.nota.NFNota;

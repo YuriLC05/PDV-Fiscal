@@ -1,5 +1,7 @@
-package com.pdvfiscal.produto;
+package com.pdvfiscal.service;
 
+import com.pdvfiscal.entity.Produto;
+import com.pdvfiscal.repository.ProdutoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
